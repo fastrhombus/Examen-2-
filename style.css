@@ -1,0 +1,71 @@
+@media (orientation: portrait) {
+    html {
+      background-color: limegreen;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    html {
+      background-color: yellow;
+    }
+  }
+  html{
+      background-color: lightcoral;
+  }
+  header{
+      background-color: lightblue;
+      color: red;
+      font-family: "Zhi Mang Xing";
+      text-align: center;
+      padding-bottom: 15px;
+      letter-spacing: 5px;
+      text-shadow: gray 6px 0;
+  }
+  nav p{
+    background-color: lightblue;
+    float: left;
+    text-align: center;
+    width: 5em;
+    margin-top: 0px;
+    margin-left: 50px;
+    border: lightcoral 5px solid;
+  }
+  nav p:hover{
+      color: red;
+  }
+  section.colors{
+      text-align: left;
+      background-color: lightyellow;
+      margin-top:15px;
+  }
+  ul{
+      list-style-type: none;
+      text-align: left;
+  }
+  section.test{
+      background-color: lightsteelblue;
+  }
+  table{
+      background-color: chocolate;
+  }
+  th{
+      padding: 25px;
+      border:chocolate 3px inset ;
+      }    
+  th.red :hover{
+      background-color:red;
+      color: red;
+  }
+  th.yellow :hover{
+      background-color: yellow;
+      color: yellow;
+  }
+  input:focus {
+    border: blue 2px solid;
+
+    background-color: yellow;
+  }
+  p.bonito{
+      border-top:orange 5px dotted;
+      border-bottom:yellow 5px dashed;
+  }
